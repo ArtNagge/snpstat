@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SNPStat</title>
+
+    <link rel="stylesheet" href="./src/styles/remodal.css">
+    <link rel="stylesheet" href="./src/styles/remodal-default-theme.css">
+    <link rel="stylesheet" href="./src/styles/main.css">
+</head>
+<body>
+
+    <header class="header-main">
+        <div class="container">
+            <a href="/" class="header-main__logo">
+                <img src="./src/images/logo.svg" alt="">
+            </a>
+            <div class="header-main__auth">
+                <img src="./src/images/user.svg" alt="">
+                <nav>
+                    <a href="#login">login in /</a>
+                    <a href="#registration">register</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="info-main">
+        <div class="container">
+            <header class="info-main__header">
+                <h1 class="info-main__h1">
+                    Hallo!
+                    <span class="marker">
+                        Was wollen sie?
+                    </span>
+                </h1>
+                <p class="info-main__description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in blandit est, sit amet egestas libero.
+                </p>
+            </header>
+            <div class="info-main__search">
+                <div class="info-main__search-field">
+                    <input type="text" placeholder="search group..." />
+                    <img src="./src/images/arrow.svg" alt="">
+                </div>
+                <div class="info-main__search-filters">
+                    <img src="./src/images/filter.svg" id="filter" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer-main">
+        <div class="container">
+            <span class="copy">© Snapchat Analytics, 2019</span>
+            <nav>
+                <a href="/">Ticket</a>
+                <a href="/">FAQ</a>
+            </nav>
+        </div>
+    </footer>
+
+    <!-- modals -->
+    
+    <div class="remodal modal-form modal-login white-close" data-remodal-id="login">
+        <button data-remodal-action="close" class="modal-close">
+            close
+        </button>
+        <h1>login in</h1>
+        <form>
+            <input type="text" placeholder="login or email">
+            <input type="password" placeholder="password">
+            <button>join</button>
+        </form>
+    </div>
+
+    <div class="remodal modal-form modal-registr white-close" data-remodal-id="registration">
+        <button data-remodal-action="close" class="modal-close">
+            close
+        </button>
+        <h1>registration</h1>
+        <form>
+            <input type="text" placeholder="login">
+            <input type="email" placeholder="email">
+            <input type="password" placeholder="password">
+            <button>go!</button>
+        </form>
+    </div>
+    
+    <!-- modals -->
+
+    <script src="./src/scripts/jquery.min.js"></script>
+    <script src="./src/scripts/remodal.min.js"></script>
+    <script src="./src/scripts/main.js"></script>
+</body>
+</html>
