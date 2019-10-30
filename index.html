@@ -7,6 +7,7 @@
     <title>SNPStat</title>
 
     <link rel="stylesheet" href="./src/styles/remodal.css">
+    <link rel="stylesheet" href="./src/styles/slick.css">
     <link rel="stylesheet" href="./src/styles/remodal-default-theme.css">
     <link rel="stylesheet" href="./src/styles/main.css">
 </head>
@@ -49,6 +50,153 @@
                     <img src="./src/images/filter.svg" id="filter" alt="">
                 </div>
             </div>
+            <div class="info-main__table full-size">
+                <div class="info-main__table-column">
+                    <span id="column-name">
+                        <img src="./src/images/name.svg" alt="">
+                        name
+                    </span>
+                    <span id="column-theme">
+                        <img src="./src/images/theme.svg" alt="">
+                        theme
+                        <img src="./src/images/arrow-bottom.svg" alt="">
+                    </span>
+                    <span id="column-region">
+                        <img src="./src/images/region.svg" alt="">
+                        region
+                    </span>
+                    <span id="column-age">
+                        <img src="./src/images/age.svg" alt="">
+                        age
+                    </span>
+                </div>
+                <div class="info-main__table-list">
+                    <div class="info-main__table-list__item">
+                        <a class="info-main__table-list__item-ava" href="#qrCode">
+                            <img src="./src/images/avatar1.png" alt="">
+                        </a>
+                        <div class="info-main__table-list__item-name">
+                            <a href="#infoCard">
+                                <h5 class="king">
+                                    Funny Chicken Group
+                                </h5>
+                            </a>
+                            <a class="hash" href="/">
+                                @funnychickengroup
+                            </a>
+                        </div>
+                        <div class="info-main__table-list__item-theme">
+                            <span>
+                                Food Delivery
+                            </span>
+                        </div>
+                        <div class="info-main__table-list__item-region">
+                                <span>
+                                    USA
+                                </span>
+                            </div>
+                        <div class="info-main__table-list__item-age">
+                            <span>
+                                18+
+                            </span>
+                        </div>
+                        <a href="/" class="info-main__table-list__item-contacts">contacts</a>
+                    </div>
+                    <div class="info-main__table-list__item">
+                        <a class="info-main__table-list__item-ava" href="#qrCode">
+                            <img src="./src/images/avatar2.png" alt="">
+                        </a>
+                        <div class="info-main__table-list__item-name">
+                            <a href="#infoCard">
+                                <h5 class="king">
+                                    Funny Chicken Group
+                                </h5>
+                            </a>
+                            <a class="hash" href="/">
+                                @funnychickengroup
+                            </a>
+                        </div>
+                        <div class="info-main__table-list__item-theme">
+                            <span>
+                                News 
+                            </span>
+                        </div>
+                        <div class="info-main__table-list__item-region">
+                            <span>
+                                China
+                            </span>
+                        </div>
+                        <div class="info-main__table-list__item-age">
+                            <span>
+                                16+
+                            </span>
+                        </div>
+                        <a href="/" class="info-main__table-list__item-contacts">contacts</a>
+                    </div>
+                    <div class="info-main__table-list__item">
+                        <a class="info-main__table-list__item-ava" href="#qrCode">
+                            <img src="./src/images/avatar3.png" alt="">
+                        </a>
+                        <div class="info-main__table-list__item-name">
+                            <a href="#infoCard">
+                                <h5 class="king">
+                                    Funny Chicken Group
+                                </h5>
+                            </a>
+                            <a class="hash" href="/">
+                                @funnychickengroup
+                            </a>
+                        </div>
+                        <div class="info-main__table-list__item-theme">
+                            <span>
+                                Pet’s
+                            </span>
+                        </div>
+                        <div class="info-main__table-list__item-region">
+                            <span>
+                                Moscow
+                            </span>
+                        </div>
+                        <div class="info-main__table-list__item-age">
+                            <span>
+                                8+
+                            </span>
+                        </div>
+                        <a href="/" class="info-main__table-list__item-contacts">contacts</a>
+                    </div>
+                    <div class="info-main__table-list__item">
+                        <a class="info-main__table-list__item-ava" href="#qrCode">
+                            <img src="./src/images/avatar4.png" alt="">
+                        </a>
+                        <div class="info-main__table-list__item-name">
+                            <a href="#infoCard">
+                                <h5 class="king">
+                                    Funny Chicken Group
+                                </h5>
+                            </a>
+                            <a class="hash" href="/">
+                                @funnychickengroup
+                            </a>
+                        </div>
+                        <div class="info-main__table-list__item-theme">
+                            <span>
+                                Beaty
+                            </span>
+                        </div>
+                        <div class="info-main__table-list__item-region">
+                            <span>
+                                Australia
+                            </span>
+                        </div>
+                        <div class="info-main__table-list__item-age">
+                            <span>
+                                12+
+                            </span>
+                        </div>
+                        <a href="/" class="info-main__table-list__item-contacts">contacts</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 
@@ -88,11 +236,69 @@
             <button>go!</button>
         </form>
     </div>
+
+    <div class="remodal qrCode white-close" data-remodal-id="qrCode">
+        <button data-remodal-action="close" class="modal-close">
+            close
+        </button>
+        <img src="./src/images/qr.png" alt="">
+    </div>
+
+    <div class="remodal infoCard black-close" data-remodal-id="infoCard">
+        <button data-remodal-action="close" class="modal-close">
+            close
+        </button>
+        <div class="infoCard__info">
+            <div class="infoCard__info-qr">
+                <img src="./src/images/qr-info.png" alt="">
+                <div class="infoCard__info-qr__other">
+                    <div class="age">
+                        18+
+                    </div>
+                    <span>USA</span>
+                </div>
+            </div>
+            <div class="infoCard__info-main">
+                <h1 class="heading">
+                    Funny Chicken Group
+                </h1>
+                <span class="theme">
+                    <img src="./src/images/box.svg" alt="">
+                    Food Delivery
+                </span>
+                <p class="info">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis.
+                </p>
+            </div>
+        </div>
+        <div class="infoCard__slider">
+            <div class="infoCard__slider-slide">
+                <img src="./src/images/1f.png" alt="">
+            </div>
+            <div class="infoCard__slider-slide">
+                <img src="./src/images/1f.png" alt="">
+            </div>
+            <div class="infoCard__slider-slide">
+                <img src="./src/images/1f.png" alt="">
+            </div>
+            <div class="infoCard__slider-slide">
+                <img src="./src/images/1f.png" alt="">
+            </div>
+            <div class="infoCard__slider-slide">
+                <img src="./src/images/1f.png" alt="">
+            </div>
+        </div>
+        <div class="infoCard__control">
+            <a class="link" href="/">open</a>
+            <a class="hash" href="/">@funny_shicken_group</a>
+        </div>
+    </div>
     
     <!-- modals -->
 
     <script src="./src/scripts/jquery.min.js"></script>
     <script src="./src/scripts/remodal.min.js"></script>
+    <script src="./src/scripts/slick.min.js"></script>
     <script src="./src/scripts/main.js"></script>
 </body>
 </html>

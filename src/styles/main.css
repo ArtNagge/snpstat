@@ -331,6 +331,7 @@ span.marker {
 
 .black-close .modal-close {
     color: #000000;
+    top: 22px;
 }
 
 .black-close .modal-close::before {
@@ -353,6 +354,332 @@ span.marker {
     position: absolute;
     right: 25px;
     cursor: pointer;
+}
+
+.infoCard__info {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.infoCard__info-qr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoCard__info-qr img {
+    width: 228px;
+    height: 228px;
+}
+
+.infoCard__info-qr__other {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-top: 24px;
+
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+
+}
+
+.infoCard__info-qr__other .age {
+    width: 33px;
+    height: 33px;
+
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 50%;
+
+    margin-right: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoCard__info-main {
+    width: 514px;
+    color: #000000;
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.infoCard__info-main .heading {
+    font-size: 50px;
+    line-height: 59px;
+    margin-bottom: 11px;
+}
+
+.infoCard__info-main .theme {
+    font-size: 18px;
+    line-height: 21px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.infoCard__info-main .theme img {
+    margin-right: 12px;
+}
+
+.infoCard__info-main .info {
+    margin-top: 20px;
+
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.infoCard__slider {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    margin-top: 40px;
+}
+
+.infoCard__slider-slide {
+    width: 305px;
+    height: 360px;
+    margin: 0 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.infoCard__control {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 32px;
+}
+
+.infoCard__control .hash {
+    font-size: 17px;
+    line-height: 20px;
+    color: #4C5764;
+}
+
+.infoCard__control .link {
+    width: 92px;
+    height: 40px;
+
+    font-size: 17px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #000000;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 100px;
+
+    margin-right: 9px;
+}
+
+.info-main__table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 81px;
+    margin-bottom: 100px; /* при необходимости убрать */
+}
+
+.info-main__table.full-size,
+.info-main__table-column,
+.info-main__table-list {
+    width: 100%;
+}
+
+.info-main__table-column {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+
+.info-main__table-column span {
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.info-main__table-column span img {
+    margin-right: 9px;
+}
+
+#column-name,
+.info-main__table-list__item-name {
+    width: 389px;
+}
+
+#column-name {
+    margin-left: 116px;
+}
+
+#column-theme,
+.info-main__table-list__item-theme {
+    width: 174px;
+}
+
+#column-region,
+.info-main__table-list__item-region {
+    width: 161px;
+}
+
+#column-age,
+.info-main__table-list__item-age {
+    width: 170px;
+}
+
+.info-main__table-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-main__table-list__item {
+    width: 100%;
+    height: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.06);
+    border-radius: 100px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    margin-bottom: 20px;
+}
+
+.info-main__table-list__item-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.info-main__table-list__item-name h5 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+
+    color: #4C5764;
+    margin-bottom: 2px;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+}
+
+.info-main__table-list__item-ava {
+    width: 51px;
+    height: 51px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    margin-left: 35px;
+    margin-right: 30px;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.info-main__table-list__item-ava::before {
+    content: '';
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    background: url(../images/hover.svg) no-repeat top center;
+    background-size: cover;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease;
+}
+
+.info-main__table-list__item-ava:hover::before {
+    opacity: 1;
+    visibility: visible;
+}
+
+.info-main__table-list__item-ava img {
+    width: 100%;
+    height: 100%;
+}
+
+.info-main__table-list__item-name h5.king::after {
+    content: '';
+    width: 16px;
+    height: 11px;
+    background: url(../images/king.svg) no-repeat top center;
+    background-size: cover;
+    
+    position: absolute;
+    left: calc(100% + 7px);
+}
+
+.info-main__table-list__item-name a.hash {
+    font-size: 19px;
+    line-height: 22px;
+
+    color: #6A9CD7;
+}
+
+.info-main__table-list__item-theme,
+.info-main__table-list__item-region,
+.info-main__table-list__item-age{
+    font-size: 18px;
+    line-height: 21px;
+    color: #4C5764;
+}
+
+.info-main__table-list__item-contacts {
+    width: 130px;
+    height: 40px;
+
+    font-size: 17px;
+    line-height: 20px;
+
+    color: #000000;
+
+    background: transparent;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 100px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* fonts */
