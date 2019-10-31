@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./src/styles/remodal.css">
     <link rel="stylesheet" href="./src/styles/slick.css">
     <link rel="stylesheet" href="./src/styles/remodal-default-theme.css">
+    <link rel="stylesheet" href="./src/styles/ion.rangeSlider.min.css"/>
     <link rel="stylesheet" href="./src/styles/main.css">
 </head>
 <body>
@@ -48,6 +49,53 @@
                 </div>
                 <div class="info-main__search-filters">
                     <img src="./src/images/filter.svg" id="filter" alt="">
+                    <div id="dropdown_filters" class="info-main__search-filters__dropdown-menu">
+                        <button class="ddm-close" id="ddm-close">close</button>
+                        <label>
+                            theme
+                            <div class="custom-select icon-src">
+                                <select>
+                                    <option value="0">Food Delivery</option>
+                                    <option value="1">Beaty</option>
+                                    <option value="2">Pet’s</option>
+                                    <option value="3">IT</option>
+                                    <option value="4">Digital</option>
+                                    <option value="5">Design</option>
+                                    <option value="6">Art</option>
+                                    <option value="7">News</option>
+                                    <option value="8">History</option>
+                                </select>
+                            </div>
+                        </label>
+                        <label>
+                            region
+                            <div class="custom-select icon-arrow">
+                                <select>
+                                    <option value="0">Food Delivery</option>
+                                    <option value="1">Beaty</option>
+                                    <option value="2">Pet’s</option>
+                                    <option value="3">IT</option>
+                                    <option value="4">Digital</option>
+                                    <option value="5">Design</option>
+                                    <option value="6">Art</option>
+                                    <option value="7">News</option>
+                                    <option value="8">History</option>
+                                </select>
+                            </div>
+                        </label>
+                        <label>
+                            age
+                            <input type="text" id="age" name="example_name" value="" />
+                        </label>
+                        <div class="control-panel">
+                            <a class="link" href="/">
+                                click
+                            </a>
+                            <a href="/" class="hash">
+                                switch off
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="info-main__table full-size">
@@ -299,6 +347,7 @@
     <script src="./src/scripts/jquery.min.js"></script>
     <script src="./src/scripts/remodal.min.js"></script>
     <script src="./src/scripts/slick.min.js"></script>
+    <script src="./src/scripts/ion.rangeSlider.min.js"></script> 
     <script src="./src/scripts/main.js"></script>
 </body>
 </html>
