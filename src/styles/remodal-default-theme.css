@@ -54,6 +54,10 @@
   padding: 65px 26px 56px 46px;
   width: 887px;
 }
+.remodal.addNew {
+  width: 887px;
+  padding: 42px 49px 49px 49px;
+}
 
 .remodal h1 {
   font-size: 50px;

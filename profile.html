@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SNPStat</title>
+
+    <link rel="stylesheet" href="./src/styles/remodal.css">
+    <link rel="stylesheet" href="./src/styles/slick.css">
+    <link rel="stylesheet" href="./src/styles/remodal-default-theme.css">
+    <link rel="stylesheet" href="./src/styles/ion.rangeSlider.min.css"/>
+    <link rel="stylesheet" href="./src/styles/main.css">
+</head>
+<body>
+
+    <header class="header-main">
+        <div class="container">
+            <a href="/" class="header-main__logo">
+                <img src="./src/images/logo.svg" alt="">
+            </a>
+            <div class="header-main__auth">
+                <div class="auth-panel">
+                    <img class="header-main__auth-ava" src="./src/images/ava.svg" alt="">
+                    <span class="header-main__auth-name">admin1793_0</span>
+                    <div class="select-panel" id="auth-panel">
+                        <a href="/">
+                            <img src="./src/images/user.svg" alt="">
+                            profile
+                        </a>
+                        <a href="/">
+                            <img src="./src/images/exit.svg" alt="">
+                            log out
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="info-main profile">
+        <div class="container">
+            <header class="info-main__header">
+                <h1 class="info-main__h1">
+                    Hallo!
+                    <span class="marker">
+                        admin1793_0
+                    </span>
+                </h1>
+                <p class="info-main__description">
+                    You can...
+                    <a class="addSP" href="#addNew">
+                        <img src="./src/images/addSP.svg" alt="">
+                        add snapchat page
+                    </a>
+                </p>
+            </header>
+            <div class="profile-main">
+                <div class="info-main__table half-size">
+                    <div class="info-main__table-column">
+                        <span id="column-name">
+                            <img src="./src/images/name.svg" alt="">
+                            name
+                        </span>
+                        <span id="column-theme">
+                            <img src="./src/images/theme.svg" alt="">
+                            theme
+                            <img src="./src/images/arrow-bottom.svg" alt="">
+                        </span>
+                        <span id="column-region">
+                            <img src="./src/images/region.svg" alt="">
+                            region
+                        </span>
+                        <span id="column-age">
+                            <img src="./src/images/age.svg" alt="">
+                            age
+                        </span>
+                    </div>
+                    <div class="info-main__table-list">
+                        <div class="info-main__table-list__item">
+                            <img src="./src/images/avatar1.png" alt="" class="info-main__table-list__item-ava">
+                            <div class="info-main__table-list__item-name">
+                                <a href="#infoCard">
+                                    <h5 class="king">
+                                        Funny Chicken Group
+                                    </h5>
+                                </a>
+                                <a class="hash" href="/">
+                                    @funnychickengroup
+                                </a>
+                            </div>
+                            <div class="info-main__table-list__item-theme">
+                                <span>
+                                    Food Delivery
+                                </span>
+                            </div>
+                            <div class="info-main__table-list__item-region">
+                                    <span>
+                                        USA
+                                    </span>
+                                </div>
+                            <div class="info-main__table-list__item-age">
+                                <span>
+                                    18+
+                                </span>
+                            </div>
+                            <img id="del" class="del-icon" src="./src/images/del.svg" alt="">
+                        </div>
+                        <div class="info-main__table-list__item">
+                            <img src="./src/images/avatar2.png" alt="" class="info-main__table-list__item-ava">
+                            <div class="info-main__table-list__item-name">
+                                <a href="#infoCard">
+                                    <h5 class="king">
+                                        Funny Chicken Group
+                                    </h5>
+                                </a>
+                                <a class="hash" href="/">
+                                    @funnychickengroup
+                                </a>
+                            </div>
+                            <div class="info-main__table-list__item-theme">
+                                <span>
+                                    News 
+                                </span>
+                            </div>
+                            <div class="info-main__table-list__item-region">
+                                <span>
+                                    China
+                                </span>
+                            </div>
+                            <div class="info-main__table-list__item-age">
+                                <span>
+                                    16+
+                                </span>
+                            </div>
+                            <img id="del" class="del-icon" src="./src/images/del.svg" alt="">
+                        </div>
+                        <div class="info-main__table-list__item">
+                            <img src="./src/images/avatar3.png" alt="" class="info-main__table-list__item-ava">
+                            <div class="info-main__table-list__item-name">
+                                <a href="#infoCard">
+                                    <h5 class="king">
+                                        Funny Chicken Group
+                                    </h5>
+                                </a>
+                                <a class="hash" href="/">
+                                    @funnychickengroup
+                                </a>
+                            </div>
+                            <div class="info-main__table-list__item-theme">
+                                <span>
+                                    Pet’s
+                                </span>
+                            </div>
+                            <div class="info-main__table-list__item-region">
+                                <span>
+                                    Moscow
+                                </span>
+                            </div>
+                            <div class="info-main__table-list__item-age">
+                                <span>
+                                    8+
+                                </span>
+                            </div>
+                            <img id="del" class="del-icon" src="./src/images/del.svg" alt="">
+                        </div>
+                        <div class="info-main__table-list__item">
+                            <img src="./src/images/avatar4.png" alt="" class="info-main__table-list__item-ava">
+                            <div class="info-main__table-list__item-name">
+                                <a href="#infoCard">
+                                    <h5 class="king">
+                                        Funny Chicken Group
+                                    </h5>
+                                </a>
+                                <a class="hash" href="/">
+                                    @funnychickengroup
+                                </a>
+                            </div>
+                            <div class="info-main__table-list__item-theme">
+                                <span>
+                                    Beaty
+                                </span>
+                            </div>
+                            <div class="info-main__table-list__item-region">
+                                <span>
+                                    Australia
+                                </span>
+                            </div>
+                            <div class="info-main__table-list__item-age">
+                                <span>
+                                    12+
+                                </span>
+                            </div>
+                            <img id="del" class="del-icon" src="./src/images/del.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="edit-panel">
+                    <h1>edit</h1>
+                    <form>
+                        <input type="text" value="admin1793_0" disabled>
+                        <input type="text" value="admin@mail.com">
+                        <input type="password" value="123456789">
+                        <div class="success-panel">
+                            <button>save</button>
+                            <a href="/">forgot password</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer-main">
+        <div class="container">
+            <span class="copy">© Snapchat Analytics, 2019</span>
+            <nav>
+                <a href="/">Ticket</a>
+                <a href="/">FAQ</a>
+            </nav>
+        </div>
+    </footer>
+
+     <div class="remodal addNew black-close" data-remodal-id="addNew">
+        <button data-remodal-action="close" class="modal-close">
+            close
+        </button>
+        <div class="addNew__info">
+            <h1>add new page</h1>
+        </div>
+        <form class="addNew__form">
+            <div class="left">
+                <input type="text" placeholder="snapchat login">
+                <div class="inputfile">
+                    <span id="output-input-file">screenschots...</span>
+                    <button id="add-input-file">add file</button>
+                    <input id="input-file" type="file" class="input" multiple />
+                </div>
+                <div class="output-pic">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <label>
+                    category
+                    <div class="custom-select icon-src">
+                      <select>
+                            <option value="0">Food Delivery</option>
+                            <option value="1">Beaty</option>
+                            <option value="2">Pet’s</option>
+                            <option value="3">IT</option>
+                            <option value="4">Digital</option>
+                            <option value="5">Design</option>
+                            <option value="6">Art</option>
+                            <option value="7">News</option>
+                            <option value="8">History</option>
+                        </select>
+                    </div>
+                </label>
+            </div>
+            <div class="right">
+                <label>
+                    description
+                    <textarea placeholder="My snapchat group is..."></textarea>
+                </label>
+            </div>
+        </form>
+        <div class="addNew__control">
+            <a class="link" href="/">save and close</a>
+            <a class="hash" href="/">just save</a>
+        </div>
+    </div>
+
+    <script>
+        const authPanelToggler = document.querySelector('.auth-panel');
+        const authPanel = document.querySelector('#auth-panel');
+
+        authPanelToggler.addEventListener('click', () => {
+            authPanel.classList.toggle('visible');
+        });
+    </script>
+
+    <script src="./src/scripts/jquery.min.js"></script>
+    <script src="./src/scripts/remodal.min.js"></script>
+    <script src="./src/scripts/slick.min.js"></script>
+    <script src="./src/scripts/ion.rangeSlider.min.js"></script> 
+    <script src="./src/scripts/addFile.js"></script>
+    <script src="./src/scripts/main.js"></script>
+</body>
+</html>
