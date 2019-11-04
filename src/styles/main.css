@@ -51,7 +51,7 @@ span.marker {
 }
 
 .container {
-  width: 1200px;
+  width: 1080px;
 }
 
 .header-main {
@@ -447,7 +447,7 @@ span.marker {
   position: relative;
   background: #ffffff;
   border-radius: 100px;
-  width: 825px;
+  width: 765px;
   height: 50px;
   overflow: hidden;
 }
@@ -515,7 +515,7 @@ span.marker {
 
 .modal-login,
 .modal-registr {
-  width: 374px;
+  width: 340px;
 }
 
 .modal-login form input,
@@ -741,7 +741,7 @@ span.marker {
 }
 
 .infoCard__info-main {
-  width: 514px;
+  width: 470px;
   color: #000000;
   text-align: left;
 
@@ -884,7 +884,7 @@ span.marker {
   align-items: center;
 
   margin-top: 81px;
-  margin-bottom: 100px; /* при необходимости убрать */
+  margin-bottom: 210px; /* при необходимости убрать */
 }
 
 .info-main__table.full-size,
@@ -897,7 +897,7 @@ span.marker {
   margin-top: 90px;
   padding-top: 69px;
   padding-bottom: 26px;
-  padding-right: 43px;
+  padding-right: 40px;
   border-right: solid 1px #000000;
   width: 707px;
 }
@@ -960,7 +960,7 @@ span.marker {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  margin-left: 60px;
+  margin-left: 40px;
   margin-top: 106px;
 }
 
@@ -1105,7 +1105,7 @@ span.marker {
 
 #column-name,
 .info-main__table-list__item-name {
-  width: 389px;
+  width: 320px;
 }
 
 #column-name {
@@ -1114,22 +1114,22 @@ span.marker {
 
 #column-theme,
 .info-main__table-list__item-theme {
-  width: 174px;
+  width: 165px;
 }
 
 #column-region,
 .info-main__table-list__item-region {
-  width: 161px;
+  width: 150px;
 }
 
 #column-age,
 .info-main__table-list__item-age {
-  width: 170px;
+  width: 160px;
 }
 
 .info-main__table.half-size #column-age,
 .info-main__table.half-size .info-main__table-list__item-age {
-  width: 53px;
+  width: 60px;
 }
 
 .info-main__table.half-size #column-region,
@@ -1139,12 +1139,12 @@ span.marker {
 
 .info-main__table.half-size #column-theme,
 .info-main__table.half-size .info-main__table-list__item-theme {
-  width: 155px;
+  width: 140px;
 }
 
 .info-main__table.half-size #column-name,
 .info-main__table.half-size .info-main__table-list__item-name {
-  width: 246px;
+  width: 240px;
 }
 
 .info-main__table.half-size .del-icon {
@@ -1336,7 +1336,7 @@ span.marker {
   visibility: hidden;
   z-index: 13;
 
-  padding: 42px 63px 59px 49px;
+  padding: 42px 44px 40px 44px;
 
   position: absolute;
   top: -30px;
@@ -1606,7 +1606,7 @@ span.marker {
 .addNew__form input,
 .addNew__form .inputfile {
   font-family: "MADE Evolve Sans", sans-serif;
-  width: 298px;
+  width: 280px;
   height: 45px;
   padding-left: 23px;
 
@@ -1744,7 +1744,7 @@ span.marker {
   font-size: 18px;
   line-height: 21px;
   color: #000000;
-  width: 414px;
+  width: 380px;
   height: 537px;
 
   resize: none;
@@ -1839,7 +1839,7 @@ span.marker {
   -ms-flex-pack: justify;
   justify-content: space-between;
   margin: 0 auto;
-  margin-top: 70px;
+  margin-top: 60px;
 }
 
 .addNew__control .hash {
